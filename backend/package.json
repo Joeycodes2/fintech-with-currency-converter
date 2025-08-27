@@ -1,0 +1,11 @@
+{
+  "name": "fintech-with-currency-converter",
+  "version": "1.0.0",
+  "description": "fintech with currency converter app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joeycodes",
+  "license": "ISC"
+}
