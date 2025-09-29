@@ -8,7 +8,7 @@ const Hero = () => {
 const [formData, setFormData] = useState({from: "", to: "", amount: ""});
   const [result, setResult] = useState(null);
   const [error, setError] = useState("")
-  const currencyCodes = ["USD", "EUR", "GBP", "GHS", "NGN", "CAD", "JPY", "AUD", "CNY"];
+  const currencyCodes = ["AFN", "ALL", "DZD", "AOA", "ARS", "AUD", "BRL", "CAD", "CNY", "EGP", "EUR", "INR", "JPY", "MXN", "NGN", "SAR", "ZAR", "CHF", "GBP", "USD", "AED", "AMD", "ANG", "BHD", "BND", "BOB", "BTN", "BWP", "BYN", "BZD", "CDF", "CLP", "COP", "CRC", "CUP", "CVE", "CZK", "DJF", "DKK", "DOP", "GEL", "GHS", "GTQ", "HKD", "HNL", "HRK", "HUF", "IDR", "ILS", "IQD", "IRR", "ISK", "JMD", "JOD", "KES", "KGS", "KHR", "KMF", "KRW", "KWD", "KZT", "LAK", "LBP", "LKR", "LRD", "LSL", "LYD", "MAD", "MDL", "MGA", "MKD", "MMK", "MNT", "MOP", "MRO", "MUR", "MVR", "MWK", "MYR", "MZN", "NAD", "NIO", "NOK", "NPR", "NZD", "OMR", "PAB", "PEN", "PGK", "PHP", "PKR", "PLN", "PYG", "QAR", "RON", "RSD", "RUB", "RWF", "SEK", "SGD", "SLL", "SOS", "SRD", "SYP", "THB", "TJS", "TMT", "TND", "TOP", "TRY", "TTD", "TWD", "TZS", "UAH", "UGX", "UYU", "UZS", "VES", "VND", "VUV", "WST", "XAF", "XCD", "XOF", "XPF", "YER", "ZMW", "ZWL"]
 
   const handleChange = (e) => { 
     const {name, value} = e.target;
