@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "projects": [
+    {
+      "name": "my-react-frontend",
+      "rootDirectory": "frontend",
+      "framework": "create vite@latest"
+    },
+    {
+      "name": "my-node-backend",
+      "rootDirectory": "backend",
+      "framework": "@vercel/node"
+    }
+  ]
+}
