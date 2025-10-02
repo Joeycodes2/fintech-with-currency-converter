@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "projects": [
+  "builds": [
     {
       "name": "my-react-frontend",
       "rootDirectory": "frontend",
