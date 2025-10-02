@@ -3,12 +3,10 @@
   "builds": [
     {
       "src": "./index.jsx",
-      "rootDirectory": "frontend",
       "framework": "create vite@latest"
     },
     {
       "src": "./app.js",
-      "rootDirectory": "backend",
       "framework": "@vercel/node"
     }
   ]
