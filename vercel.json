@@ -2,14 +2,8 @@
   "version": 2,
   "builds": [
     {
-      "name": "my-react-frontend",
-      "rootDirectory": "frontend",
-      "framework": "create vite@latest"
-    },
-    {
-      "name": "my-node-backend",
-      "rootDirectory": "backend",
-      "framework": "@vercel/node"
+      "src": "./index.js",
+      "use": "@vercel/node"
     }
   ]
 }
